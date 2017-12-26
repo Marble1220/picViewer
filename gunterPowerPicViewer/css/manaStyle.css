@@ -1,0 +1,138 @@
+﻿body
+{
+ font-size:12px;
+ background-color:#F9F9F9;
+ color:#000000;
+ font-family:Arial;
+}
+
+div
+{
+  float:left;	
+}
+
+a
+{
+color:#21759b;
+}
+
+.title_td
+{
+	background:#F9F9F9 url(../images/menu1.png) no-repeat  -250px 0px; height:40px; width:35px; 
+}
+
+.white-button
+{
+
+}
+
+#filesManage 
+{
+	clear:both;
+	float:left;
+	border:solid 1px #E4E4E4;	
+	width:100%;
+}
+
+#filesManage td
+{	 
+   border-left:solid 1px #FFFAF0;
+   border-bottom:solid 1px #E7E7E7;
+}
+
+#filesManage .title
+{
+	text-align:left;
+    height:25px;
+	background:url(../images/gray-grad.png) repeat-x left center;
+}
+
+#filesManage #title_space
+{
+	background-color:#FFFFFF; height:10px;
+}
+
+#filesManage .content
+{
+	background-color:#F9F9F9; height:35px; margin:0px; padding:5px 0px 0px 0px; vertical-align:top;
+}
+
+#filesManage #showUpdate
+{
+   padding:0px 0px 10px 0px;	
+}
+
+/*控件样式*/
+.button7
+{
+  border:solid 1px #606060;
+  padding:3px 0px 0px 0px;
+  background:url(../images/white-grad.png) repeat-x left center;	
+  margin-right:5px;
+}
+
+.button8
+{
+  border:solid 1px #606060;
+  height:22px;
+  padding:3px 0px 0px 0px;
+  background:url(../images/gray-grad.png) repeat-x left center;	
+
+}
+
+.button9
+{
+  border:solid 1px #13455B;
+  height:26px;
+  color:white;
+  font-weight:bold;
+  padding:3px 0px 0px 0px;
+  background:url(../images/button-grad.png) repeat-x left center;	
+}
+
+.textbox1
+{
+  border:solid 1px #cccccc;	
+  height:20px;
+}
+
+.textbox2
+{
+   border:solid 1px #cccccc;	
+  height:20px;
+  background:url('../images/white-grad-active.png')
+}
+
+.ControlFloatLeft
+{
+  float:left;
+  margin:5px 0px 0px 5px;	
+}
+
+.Image1
+{
+  border-left:solid 5px gray;
+  border-top:solid 5px gray; 
+  border-right:solid 5px black; 
+  border-bottom:solid 5px black;	
+}
+/*aspnetpager的样式*/
+.anpager .cpb {background:#CCCCCC none repeat scroll 0 0;border:solid 1px #FFFFFF;color:#FFFFFF;font-weight:bold;margin:5px 4px 0 0;padding:4px 5px 0;}
+.anpager a {background:#FFFFFF none repeat scroll 0 0; border:solid 1px #FFFFFF; color:#1F3A87;margin:5px 4px 0 0;padding:4px 5px 0;text-decoration:none}
+.anpager a:hover{background:#F8F8FF none repeat scroll 0 0; border:solid 1px #CCCCCC; color:Gray;}
+
+/*====================Article_Add页面的样式====================*/
+.article_add
+{
+	font-size:12px;
+}
+
+.article_add .center
+{
+  width:60%;
+}
+
+.article_add .center .FckEditor
+{
+  background-color:Black;
+}
